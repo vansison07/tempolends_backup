@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TempolendMyApplication"
+        tools:targetApi="33">
+        <activity
+            android:name=".Editprofilepage"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_View_P3"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P3"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_View_P1"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P3"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_View_P1"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P3"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_View_P1"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P10"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P9"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P8"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P7"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P3"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_View_P1"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P10"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P9"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P8"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P7"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P6"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P5"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P4"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P2"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_View_P1"
+            android:exported="false" />
+        <activity
+            android:name=".Cajon_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Violin_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Drums_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Piano_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Electric_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Guitar_Category"
+            android:exported="false" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Bank"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ToReturn"
+            android:exported="false" />
+        <activity
+            android:name=".Address"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Orders"
+            android:exported="false" />
+        <activity
+            android:name=".AccountsSecurity"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TempolendMyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
